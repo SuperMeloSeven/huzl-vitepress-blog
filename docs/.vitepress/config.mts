@@ -3,6 +3,7 @@ import { nav } from './relaConf'
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: '/huzl-vitepress-blog/',
   title: "Huzl-Blog",
   description: "A VitePress Site",
   themeConfig: {
